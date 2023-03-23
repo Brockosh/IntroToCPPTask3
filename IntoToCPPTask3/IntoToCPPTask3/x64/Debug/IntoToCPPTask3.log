@@ -1,0 +1,6 @@
+﻿  Country.cpp
+C:\Users\User\Documents\GitHub\IntroToCPPTask3\IntoToCPPTask3\IntoToCPPTask3\Country.h(16): warning C4305: 'initializing': truncation from 'double' to 'float'
+  IntoToCPPTask3.cpp
+C:\Users\User\Documents\GitHub\IntroToCPPTask3\IntoToCPPTask3\IntoToCPPTask3\Country.h(16): warning C4305: 'initializing': truncation from 'double' to 'float'
+  Generating Code...
+  IntoToCPPTask3.vcxproj -> C:\Users\User\Documents\GitHub\IntroToCPPTask3\IntoToCPPTask3\x64\Debug\IntoToCPPTask3.exe

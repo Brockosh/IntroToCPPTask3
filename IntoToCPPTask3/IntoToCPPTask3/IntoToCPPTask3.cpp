@@ -1,8 +1,11 @@
 #include <iostream>
+#include"Country.h"
 
 int main()
 {
-    std::cout << "Hello World!\n";
+    France* france = new France;
+
+    std::cout << france->priceIncludingTip(100) << std::endl;
 }
 
 
