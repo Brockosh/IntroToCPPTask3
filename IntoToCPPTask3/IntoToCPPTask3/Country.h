@@ -21,3 +21,25 @@ public:
 	}
 };
 
+class Serbia : Country
+{
+public:
+	float tipRate = .12;
+	float priceIncludingTip(float price) override // Overriding the priceIncludingTip() function
+	{
+		float totalPrice = price + price * tipRate;
+		return totalPrice;
+	}
+};
+
+class Germany : Country
+{
+public:
+	float tipRate = .12;
+	float priceIncludingTip(float price) override // Overriding the priceIncludingTip() function
+	{
+		float totalPrice = price + price * tipRate;
+		return totalPrice;
+	}
+};
+
