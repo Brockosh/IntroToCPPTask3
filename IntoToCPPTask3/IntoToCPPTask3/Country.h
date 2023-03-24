@@ -14,7 +14,7 @@ class France : Country
 {
 public:
 	float tipRate = .12;
-	float priceIncludingTip(float price) override // Overriding the priceIncludingTip() function
+	float priceIncludingTip(float price) override 
 	{
 		float totalPrice = price + price * tipRate;
 		return totalPrice;
@@ -25,7 +25,7 @@ class Serbia : Country
 {
 public:
 	float tipRate = .12;
-	float priceIncludingTip(float price) override // Overriding the priceIncludingTip() function
+	float priceIncludingTip(float price) override 
 	{
 		float totalPrice = price + price * tipRate;
 		return totalPrice;
@@ -36,7 +36,7 @@ class Germany : Country
 {
 public:
 	float tipRate = .12;
-	float priceIncludingTip(float price) override // Overriding the priceIncludingTip() function
+	float priceIncludingTip(float price) override 
 	{
 		float totalPrice = price + price * tipRate;
 		return totalPrice;
